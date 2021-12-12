@@ -1,0 +1,25 @@
+.header {
+  height: 50px;
+  margin: 20px;
+  border: 0.5px solid #606266;
+  border-radius: 10px;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr;
+}
+.nav {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.link {
+  justify-self: center;
+  align-self: center;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+.main {
+  min-height: 100vh;
+  width: 100%;
+  display: grid;
+}

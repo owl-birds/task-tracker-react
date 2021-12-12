@@ -1,0 +1,55 @@
+/* APP */
+.content {
+  display: grid;
+  margin: 20px;
+  width: 50%;
+  justify-self: center;
+  border: 0.5px solid #606266;
+  grid-template-rows: 1fr 8fr;
+}
+.top {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  border-bottom: 0.5px solid #606266;
+}
+.btn {
+  width: 50px;
+  height: 30px;
+  justify-self: end;
+  border: 0.5px solid #606266;
+  margin: 20px;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+.btn:hover {
+  background-color: #606266;
+}
+.title {
+  margin: 20px;
+}
+/* TASK */
+.taskContent {
+  display: grid;
+  grid-template-columns: 6fr 1fr;
+  margin: 20px;
+  border-bottom: 0.5px solid #606266;
+  padding-left: 10px;
+}
+.removeBtn {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+.day {
+  font-size: 0.8rem;
+  color: #fff;
+}
+.text {
+  color: #fff;
+  font-weight: bold;
+}
+/* REMINDER */
+.reminder {
+  border-left: 2px solid #fff;
+}

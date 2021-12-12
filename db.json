@@ -1,0 +1,34 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "text": "Math Homework",
+      "day": "Jan 1th 2:30pm",
+      "reminder": false
+    },
+    {
+      "id": 2,
+      "text": "Doctor Appointment",
+      "day": "Jan 10th 2:30pm",
+      "reminder": false
+    },
+    {
+      "id": 3,
+      "text": "Go to friend's house",
+      "day": "Jan 19th 2:30pm",
+      "reminder": false
+    },
+    {
+      "id": 4,
+      "text": "Go to beach",
+      "day": "Jan 19th 6:30am",
+      "reminder": false
+    },
+    {
+      "text": "dinner at the cliff",
+      "day": "end day",
+      "reminder": false,
+      "id": 5
+    }
+  ]
+}

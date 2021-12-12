@@ -1,0 +1,41 @@
+.modalWrapper {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  background-color: rgba(96, 104, 125, 0.4);
+}
+.modalBox {
+  width: 50%;
+  height: 70%;
+  background-color: #fff;
+  border: 3px solid #000;
+  padding: 30px;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  gap: 2rem;
+}
+.inputGroup {
+  display: grid;
+}
+.input {
+  border: 0.5px solid #606266;
+}
+.btnGroup {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+.btn {
+  border: 0.5px solid #606266;
+  font-weight: bold;
+}
+.btn:hover {
+  background-color: #606266;
+  color: #fff;
+}
